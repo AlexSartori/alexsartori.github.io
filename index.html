@@ -1,112 +1,136 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />    
-    <title></title>
-    <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  </head>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
     
-    <style>
-        html, body {
-            overflow: hidden;
-            width: 100%;
-            height; 100%;
-            margin: 0px;
-            padding: 0px;
-            background-color: black;
-        }
-        #bg {
-            overflow: hidden;
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 100%;
-            background-image: url('sky.jpg');
-            background-size: cover;
-            background-position: center center;
-            -webkit-filter: blur(7px);
-        }
-        .a {
-            display: block;
-            position: absolute;
-            bottom: -200px;
-            left: 0px;
-            transition: .5s all linear;
-        }
+        <meta name='theme-color' content='#296871'>
+        <meta name='msapplication-navbutton-color' content='#296871'>
+        <meta name='apple-mobile-web-app-capable' content='yes'>
+
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet'>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+        <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
         
-        .dreamcard {
-            position: absolute;
-            width: 70%;
-            top: 10%;
-            margin: 0 15%;
-            text-align: center;
-            color: #EEE;
-            font-size: 70px;
-            border: 1px solid #DDD;
-            text-shadow: 0px 0px 10px #337;
-            font-family: 'Megrim', sans-serif;
-        }
+        <title>Alex Sartori</title>
         
-        #bgw {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: #DDD;
-            opacity: 0.2;
-        }
-    </style>
-  <body>
-      <div id="bg"></div>
-      
-      <div class="dreamcard">
-          <div id="bgw"></div>
-          <div style="margin:50px;">Alex Sartori</div>
-      </div>
-  </body>
-    
-    <script>
-        $(window).on('load', function() {
-            var currID = 0;
-            var w = $(window).width();
-            var paths = ["p1.gif", "p2.gif"];
-            var b = [];
-            var c = $("#bg");
-            
-            a = function() {
-                    var s = " style='left: " + (Math.random() * w) + "px' ";
-                    $("<img class='a'" + s + "id='" + ++currID + "' src='" + paths[parseInt(Math.random() * paths.length)] + "' />").appendTo(c);
-                    b.push(currID);
-                    if (b.length < 4) setTimeout(a, Math.random() * 4000);
-                };
-            a();
-            
-            function move() {
-                var h = $(window).height();
-                w = $(window).width();
-                
-                for (var i = 0; i < b.length; i++) {
-                    var e = $('#' + b[i]);
-                    var t = parseInt(e.css('bottom'));
-                    var l = parseInt(e.css('left'));
-                    
-                    if (t >= $(window).height()) {
-                        e.remove();
-                        b.splice(i, 1);
-                        i--;
-                        a();
-                    }
-                    
-                    e.css('bottom',  (t + Math.random() * (h/20) + (h/40) + "px"));
-                    e.css('left', (l + (w/50) - Math.random() * (w/25)) + "px");
-                }
-                
-                setTimeout(move, 400);
+        <style>
+            html, body {
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
             }
             
-            setTimeout(move, 10);
+            .skybox {
+                background-image: url('sky.jpg');
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center center;
+                transition: 1s all;
+            }
+            .skybox.tall  { height: 200px; }
+            .skybox.short { height: 75px;  }
             
-        });
-    </script>
+            #name {
+                margin: 10px;
+                padding: 30px 15px;
+                text-align: center;
+                font-size: 70px;
+                font-family: 'Megrim';
+                color: #296871; /* #003d54; */
+                background-color: #fff;
+            }
+            
+            #developer, #findme {
+                display: inline-block;
+                margin-top: -50%;
+                padding: 15px 20px;
+                font-size: 45px;
+                font-family: 'Megrim';
+                color: #296871;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+            
+            #social-icons {
+                margin: 0px auto 50px;
+                text-align: center;
+                font-size: 70px;
+            }
+            #social-icons a { cursor: pointer; margin: 20px; color: #000; }
+            #social-icons a:hover { color: #296871; }
+            
+            .logo-img {
+                display: inline-block;
+                height: 70px;
+                margin: 20px;
+            }
+            
+            @media screen and (max-width: 575px) {
+                #name { font-size: 40px; }
+                #developer, #findme { font-size: 25px; }
+                
+                .logo-img {
+                    height: 35px;
+                    margin: 15px;
+                }
+                
+                #social-icons {
+                    margin: 0px auto 50px;
+                    font-size: 30px;
+                }
+            }
+            
+            @media screen and (max-width: 320px) {
+            }
+        </style>
+    </head>
+    <body>
+        <div class="skybox short" style="background-image: url('space.jpg')"></div>
+        <h1 id="name">Alex Sartori</h1>
+        <div class="skybox tall" style="background-image: url('space.jpg')"></div>
+        
+        <div class="container text-center">
+            <h1 id="developer">Developer</h1>
+            <div style="padding:40px 0px 70px;">
+                <img class="logo-img" src="logos/html5.png" />
+                <img class="logo-img" src="logos/css3.gif" />
+                <img class="logo-img" src="logos/js.png" />
+                <img class="logo-img" src="logos/jquerypng" />
+                <img class="logo-img" src="logos/bs.jpg" />
+                <img class="logo-img" src="logos/php.png" />
+                <img class="logo-img" src="logos/mysql.png" />
+                <img class="logo-img" src="logos/git.png" />
+                <img class="logo-img" src="logos/fedora.png" />
+                <img class="logo-img" src="logos/linux.png" />
+                <img class="logo-img" src="logos/java.png" />
+                <img class="logo-img" src="logos/cs.png" />
+                <img class="logo-img" src="logos/cpp.png" />
+                <img class="logo-img" src="logos/py.jpg" />
+            </div>
+        </div>
+        
+        <div class="skybox tall"></div>
+        
+        <div class="container text-center">
+            <h1 id="findme">Find me</h1><br />
+            <div id="social-icons">
+                <a href="http://github.com/AlexSartori" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/alex-sartori-92a567100" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="mailto:alex.sartori1997@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        
+        <div class="skybox tall" style="background-image: url('landscape.jpg')"></div>
+        
+        <div class="container text-center">
+            <br />Copyright 2016, Alex Sartori<br /><br />
+        </div>
+    </body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </html>
