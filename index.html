@@ -4,19 +4,20 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <meta name="keywords" content="">
+        <meta name="description" content="I'm Alex Sartori, an italian developer. Welcome to my online portfolio.">
+        <meta name="author" content="Alex Sartori">
+        <meta name="keywords" content="Alex Sartori, developer, Alex Sartori developer, online portfolio, website, developer for hire, freelancer, freelancer developer">
     
-        <meta name='theme-color' content='#296871'>
-        <meta name='msapplication-navbutton-color' content='#296871'>
+        <meta name='theme-color' content='#0b46a5'>
+        <meta name='msapplication-navbutton-color' content='#0b46a5'>
         <meta name='apple-mobile-web-app-capable' content='yes'>
 
-        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
         <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet'>
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
         <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-        
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+
         <title>Alex Sartori</title>
         
         <style>
@@ -45,6 +46,12 @@
                 color: #296871; /* #003d54; */
                 background-color: #fff;
             }
+            #it {
+                display: block;
+                height: 60px;
+                margin: auto;
+                margin-bottom: -30px;
+            }
             
             #developer, #findme {
                 display: inline-block;
@@ -57,6 +64,16 @@
                 border-radius: 4px;
             }
             
+            #logos {
+                padding: 40px 0px 70px;
+            }
+
+            .logo-img {
+                display: inline-block;
+                height: 70px;
+                margin: 20px;
+            }
+            
             #social-icons {
                 margin: 0px auto 50px;
                 text-align: center;
@@ -65,24 +82,17 @@
             #social-icons a { cursor: pointer; margin: 20px; color: #000; }
             #social-icons a:hover { color: #296871; }
             
-            .logo-img {
-                display: inline-block;
-                height: 70px;
-                margin: 20px;
-            }
             
             @media screen and (max-width: 575px) {
                 #name { font-size: 40px; }
+                #it { height: 40px; margin-bottom: -20px; }
                 #developer, #findme { font-size: 25px; }
                 
-                .logo-img {
-                    height: 35px;
-                    margin: 15px;
-                }
+                .logo-img { height: 60px; margin: 15px; }
                 
                 #social-icons {
                     margin: 0px auto 50px;
-                    font-size: 30px;
+                    font-size: 60px;
                 }
             }
             
@@ -93,11 +103,12 @@
     <body>
         <div class="skybox short" style="background-image: url('space.jpg')"></div>
         <h1 id="name">Alex Sartori</h1>
+        <img id="it" src="media/it.png" alt="">
         <div class="skybox tall" style="background-image: url('space.jpg')"></div>
         
         <div class="container text-center">
             <h1 id="developer">Developer</h1>
-            <div style="padding:40px 0px 70px;">
+            <div id="logos">
                 <img class="logo-img" src="logos/html5.png" />
                 <img class="logo-img" src="logos/css3.gif" />
                 <img class="logo-img" src="logos/js.png" />
@@ -105,9 +116,11 @@
                 <img class="logo-img" src="logos/bs.jpg" />
                 <img class="logo-img" src="logos/php.png" />
                 <img class="logo-img" src="logos/mysql.png" />
+                <img class="logo-img" src="logos/redis.png" />
+                <img class="logo-img" src="logos/node.jpg" />
                 <img class="logo-img" src="logos/git.png" />
                 <img class="logo-img" src="logos/fedora.png" />
-                <img class="logo-img" src="logos/linux.png" />
+                <img class="logo-img" src="logos/linux.jpg" />
                 <img class="logo-img" src="logos/java.png" />
                 <img class="logo-img" src="logos/cs.png" />
                 <img class="logo-img" src="logos/cpp.png" />
@@ -132,5 +145,20 @@
             <br />Copyright 2016, Alex Sartori<br /><br />
         </div>
     </body>
+
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+           $("#logos").slick({
+               infinite: true,
+               slidesToScroll: 1,
+               autoplay: true,
+               autoplaySpeed: 1000,
+               variableWidth: true,
+               centerMode: true
+           }); 
+        });
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </html>
