@@ -7,28 +7,28 @@
         <meta name="description" content="I'm Alex Sartori, an italian developer. Welcome to my online portfolio.">
         <meta name="author" content="Alex Sartori">
         <meta name="keywords" content="Alex Sartori, developer, Alex Sartori developer, online portfolio, website, developer for hire, freelancer, freelancer developer">
-    
+
         <meta name='theme-color' content='#0b46a5'>
         <meta name='msapplication-navbutton-color' content='#0b46a5'>
         <meta name='apple-mobile-web-app-capable' content='yes'>
-        
+
         <meta name="google-site-verification" content="5i9jZLEugHT4mmzNI7MtYNlLxbdEPOoTCW5N5UTH_OY" />
-        
+
         <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet'>
-        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 
         <title>Alex Sartori</title>
-        
+
         <style>
             html, body {
                 width: 100%;
                 margin: 0px;
                 padding: 0px;
             }
-            
+
             .skybox {
                 background-image: url('sky.jpg');
                 background-attachment: fixed;
@@ -38,7 +38,7 @@
             }
             .skybox.tall  { height: 200px; }
             .skybox.short { height: 75px;  }
-            
+
             #name {
                 margin: 10px;
                 padding: 30px 15px;
@@ -54,7 +54,7 @@
                 margin: auto;
                 margin-bottom: -30px;
             }
-            
+
             #developer, #findme {
                 display: inline-block;
                 margin-top: -50%;
@@ -65,7 +65,7 @@
                 background-color: #fff;
                 border-radius: 4px;
             }
-            
+
             #logos {
                 padding: 40px 0px 70px;
             }
@@ -75,7 +75,7 @@
                 height: 70px;
                 margin: 20px;
             }
-            
+
             #social-icons {
                 margin: 0px auto 50px;
                 text-align: center;
@@ -83,21 +83,21 @@
             }
             #social-icons a { cursor: pointer; margin: 20px; color: #000; }
             #social-icons a:hover { color: #296871; }
-            
-            
+
+
             @media screen and (max-width: 575px) {
                 #name { font-size: 40px; }
                 #it { height: 40px; margin-bottom: -20px; }
                 #developer, #findme { font-size: 25px; }
-                
+
                 .logo-img { height: 60px; margin: 15px; }
-                
+
                 #social-icons {
                     margin: 0px auto 50px;
                     font-size: 50px;
                 }
             }
-            
+
             @media screen and (max-width: 320px) {
             }
         </style>
@@ -107,7 +107,7 @@
         <h1 id="name">Alex Sartori</h1>
         <img id="it" src="media/it.png" alt="">
         <div class="skybox tall" style="background-image: url('space.jpg')"></div>
-        
+
         <div class="container text-center">
             <h1 id="developer">Developer</h1>
             <div id="logos">
@@ -129,28 +129,29 @@
                 <img class="logo-img" src="logos/py.jpg" />
             </div>
         </div>
-        
+
         <div class="skybox tall"></div>
-        
+
         <div class="container text-center">
             <h1 id="findme">Find me</h1><br />
             <div id="social-icons">
-                <a href="http://github.com/AlexSartori" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/alex-sartori-92a567100" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                <a href="https://linuxfreetime.wordpress.com" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>
-                <a href="mailto:alex.sartori1997@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="https://github.com/AlexSartori" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/alex-sartori-92a567100" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://www.hackerrank.com/alex_sartori1997" target="_blank"><i class="fab fa-hackerrank" aria-hidden="true"></i></a>
+                <a href="https://linuxfreetime.wordpress.com" target="_blank"><i class="fab fa-wordpress" aria-hidden="true"></i></a>
+                <a href="mailto:alex.sartori1997@gmail.com" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a>
             </div>
         </div>
-        
+
         <div class="skybox tall" style="background-image: url('landscape.jpg')"></div>
-        
+
         <div class="container text-center">
             <br />Copyright 2016, Alex Sartori<br /><br />
         </div>
     </body>
 
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script>
         $(document).ready(function() {
            $("#logos").slick({
@@ -160,7 +161,7 @@
                autoplaySpeed: 1000,
                variableWidth: true,
                centerMode: true
-           }); 
+           });
         });
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
