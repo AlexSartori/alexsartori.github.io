@@ -1,0 +1,129 @@
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.skybox {
+    background-image: url('../sky.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    transition: 1s all;
+}
+.skybox.tall  { height: 200px; }
+.skybox.short { height: 75px;  }
+
+#name {
+    margin: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Megrim';
+    color: #296871; /* #003d54; */
+    background-color: #fff;
+}
+#it {
+    display: block;
+    height: 60px;
+    margin: auto;
+    margin-bottom: -30px;
+}
+
+h1.block-header {
+    display: inline-block;
+    margin-top: -50%;
+    padding: 15px 20px;
+    font-size: 45px;
+    font-family: 'Megrim';
+    color: #296871;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+h2.block-subtitle {
+  text-align: left;
+  font-size: 35px;
+  font-family: 'Megrim';
+  color: #296871;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.carousel {
+    padding-bottom: 70px;
+}
+
+.logo-img {
+    display: inline-block;
+    height: 70px;
+    margin: 20px;
+}
+
+.project, .highlight {
+    display: inline-block;
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px 30px;
+    box-shadow: 0px 5px 15px -2px #999;
+    border-radius: 10px;
+}
+
+.hl-img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.hl-hr {
+    margin: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #aaa;
+}
+
+.highlight .fas {
+    font-size: 22px;
+    margin: 10px;
+}
+
+.hl-footer {
+    margin: 0px;
+    font-size: 24px;
+}
+.hl-footer.small {
+    font-size: 20px;
+}
+.hl-footer small {
+    font-size: 18px;
+    color: #777;
+}
+
+.hl-team {
+    color: #777;
+    font-size: 12px;
+}
+
+#social-icons {
+    margin: 0px auto 50px;
+    text-align: center;
+    font-size: 70px;
+}
+#social-icons a { cursor: pointer; margin: 20px; color: #000; }
+#social-icons a:hover { color: #296871; }
+
+
+@media screen and (max-width: 575px) {
+    #name { font-size: 40px; }
+    #it { height: 40px; margin-bottom: -20px; }
+    h1.block-header { font-size: 25px; }
+    h2.block-subtitle { font-size: 15px; }
+    .logo-img { height: 60px; margin: 15px; }
+
+    #social-icons {
+        margin: 0px auto 50px;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+}
