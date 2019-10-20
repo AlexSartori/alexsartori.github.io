@@ -15,7 +15,7 @@
         <meta name="google-site-verification" content="5i9jZLEugHT4mmzNI7MtYNlLxbdEPOoTCW5N5UTH_OY" />
 
         <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
         <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
@@ -52,20 +52,7 @@
             </div>
 
             <h2 class="block-subtitle">Projects:</h2>
-            <div class="carousel" id="projects-carousel">
-                <div class="project">
-                    <h3 class="proj-header">Coming soon</h3>
-                    <p>Proj decription and link...</p>
-                </div>
-                <div class="project">
-                    <h3 class="proj-header">Coming soon</h3>
-                    <p>Proj decription and link...</p>
-                </div>
-                <div class="project">
-                    <h3 class="proj-header">Coming soon</h3>
-                    <p>Proj decription and link...</p>
-                </div>
-            </div>
+            <div class="carousel" id="projects-carousel">Loading...</div>
 
             <h2 class="block-subtitle">Highlights:</h2>
             <div class="carousel" id="highlights-carousel">
@@ -164,26 +151,20 @@
     </body>
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/index.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script>
         $(document).ready(function() {
-           $("#skills-carousel").slick({
+            $("#skills-carousel").slick({
                infinite: true,
                slidesToScroll: 1,
                autoplay: true,
                autoplaySpeed: 1000,
                variableWidth: true,
                centerMode: true
-           });
+            });
 
-           $("#projects-carousel").slick({
-               infinite: true,
-               slidesToScroll: 3,
-               autoplay: true,
-               autoplaySpeed: 3000,
-               variableWidth: true,
-               centerMode: true
-           });
+            load_projects($("#projects-carousel"));
 
            $("#highlights-carousel").slick({
                infinite: true,

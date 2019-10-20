@@ -1,0 +1,38 @@
+[
+    {
+        "title": "AdvancedComputingArchitectures",
+        "desc": "Notes...",
+        "href": "#",
+        "logo_html": "<i class='far fa-sticky-note fa-5x'></i>"
+    }, {
+        "title": "WordClock",
+        "desc": "A JQuery plugin to embed a word clock [<a href='https://alexsartori.github.io/WordClock/'>demo</a>].",
+        "href": "https://github.com/AlexSartori/WordClock",
+        "logo_html": "<img src='https://raw.githubusercontent.com/AlexSartori/WordClock/master/img_demo.png' width='150px' style='margin:auto' alt='wordclock' />"
+    }, {
+        "title": "Custom Shell",
+        "desc": "A custom bash-like shell written in C for the Operating Systems course at UniTN.",
+        "href": "https://github.com/AlexSartori/custom-shell",
+        "logo_html": "<i class='fas fa-terminal fa-5x'></i>"
+    }, {
+        "title": "Raspberry-GPIO-Manager",
+        "desc":  "A basic library to manage the GPIO pins on a Raspberry Pi with C Sharp.",
+        "href":  "https://github.com/AlexSartori/Raspberry-GPIO-Manager",
+        "logo_html": "<i class='fab fa-raspberry-pi fa-5x'></i>"
+    }, {
+        "title": "Evolutive Classifier",
+        "desc": "An evolutive name gender classifier.",
+        "href": "https://github.com/AlexSartori/Bronson-Evolutive-classifier",
+        "logo_html": "<img src='https://camo.githubusercontent.com/45e51de06cb6475464693ae062e11a16f4b80e69/68747470733a2f2f692e696d6775722e636f6d2f56534f634d57532e706e67' width='300px' style='margin:auto' alt='Name gender classifier' />"
+    }, {
+        "title": "200b Grid",
+        "desc": "A CSS grid system in 200 bytes!",
+        "href": "https://github.com/AlexSartori/200b-grid",
+        "logo_html": "<i class='fas fa-th fa-5x'></i>"
+    }, {
+        "title": "Bootstrap Themes",
+        "desc": "An (incomplete) collection of free fancy CSS themes for Bootstrap.",
+        "href": "https://github.com/AlexSartori/Bootstrap-Themes",
+        "logo_html": "<i class='fab fa-bootstrap fa-5x'></i>"
+    }
+]
