@@ -1,5 +1,10 @@
 [
     {
+        "title": "Lil-T",
+        "desc": "LAN-controlled home thermostat based on a <em>Raspberry Pi Zero W</em>, with self-made control board (from logic circuit to PCB and assembly) and 3D printed case.",
+        "href": "https://linuxfreetime.wordpress.com/2018/12/12/iot-home-thermostat/",
+        "logo_html": "<img src='media/lil-t.png' class='shadowed' width='250px' style='margin:auto' alt='Lil-t home thermostat' />"
+    }, {
         "title": "AdvancedComputingArchitectures",
         "desc": "Notes...",
         "href": "#",
@@ -8,7 +13,7 @@
         "title": "WordClock",
         "desc": "A JQuery plugin to embed a word clock [<a href='https://alexsartori.github.io/WordClock/'>demo</a>].",
         "href": "https://github.com/AlexSartori/WordClock",
-        "logo_html": "<img src='https://raw.githubusercontent.com/AlexSartori/WordClock/master/img_demo.png' width='150px' style='margin:auto' alt='wordclock' />"
+        "logo_html": "<img src='https://raw.githubusercontent.com/AlexSartori/WordClock/master/img_demo.png' width='200px' style='margin:auto' alt='wordclock' />"
     }, {
         "title": "Custom Shell",
         "desc": "A custom bash-like shell written in C for the Operating Systems course at UniTN.",
