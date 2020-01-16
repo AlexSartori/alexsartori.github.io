@@ -1,14 +1,19 @@
 [
     {
+        "title": "Handmade Vintage-Looking Amplifier",
+        "desc": "A handcrafted amplifier, from electronics to case.",
+        "href": "https://linuxfreetime.wordpress.com/2018/12/12/iot-home-thermostat/",
+        "logo_html": "<img src='https://linuxfreetime.files.wordpress.com/2020/01/untitled.png' class='shadowed' width='300px' style='margin:auto' alt='Handmade Vintage-Looking Amplifier' />"
+    }, {
         "title": "Lil-T",
         "desc": "LAN-controlled home thermostat based on a <em>Raspberry Pi Zero W</em>, with self-made control board (from logic circuit to PCB and assembly) and 3D printed case.",
         "href": "https://linuxfreetime.wordpress.com/2018/12/12/iot-home-thermostat/",
         "logo_html": "<img src='media/lil-t.png' class='shadowed' width='250px' style='margin:auto' alt='Lil-t home thermostat' />"
     }, {
-        "title": "AdvancedComputingArchitectures",
-        "desc": "Notes...",
-        "href": "#",
-        "logo_html": "<i class='far fa-sticky-note fa-5x'></i>"
+        "title": "RISC-emV",
+        "desc": "Graphical emulator for the RISC-V architecture, implementing the Tomasulo algorithm and the Simultaneous Multi-Threading.",
+        "href": "https://github.com/AlexSartori/RISC-emV",
+        "logo_html": "<img src='https://raw.githubusercontent.com/AlexSartori/RISC-emV/master/logo.png' width='200px' style='margin:30px auto' alt='riscemv' />"
     }, {
         "title": "WordClock",
         "desc": "A JQuery plugin to embed a word clock [<a href='https://alexsartori.github.io/WordClock/'>demo</a>].",
