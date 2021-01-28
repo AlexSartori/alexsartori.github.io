@@ -1,0 +1,8 @@
+- name: Home
+  url: /
+- name: Curriculum
+  url: /cv
+- name: Blog
+  url: /blog
+- name: Contacts
+  url: contact

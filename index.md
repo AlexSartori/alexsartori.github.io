@@ -4,6 +4,6 @@ title: Alessandro Sartori
 permalink: /
 ---
 
-# Home
+## Home
 
 Hello, world!
