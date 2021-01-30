@@ -1,7 +1,7 @@
 <div class="navbar">
     {% for p in site.data.navbar %}
         {% if p.url == page.url %}
-            <a href="{{ p.url }}">{{ '> ' | append: p.name | append: ' <' | ascii_box }}</a>
+            <a href="{{ p.url }}" class="active">{{ '> ' | append: p.name | append: ' <' | ascii_box }}</a>
         {% else %}
             <a href="{{ p.url }}">{{ p.name | ascii_box }}</a>
         {% endif %}

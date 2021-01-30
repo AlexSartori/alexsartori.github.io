@@ -1,8 +1,12 @@
 h1 {
     text-align: center;
-    font-size: 42px;
+    font-size: 3rem;
 }
 
 a {
     color: $fg-color;
+
+    // &:hover {
+    //     color: $fg-color-accent;
+    // }
 }

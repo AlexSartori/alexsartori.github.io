@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 $bg-color-1: #242424;
-$bg-color-2: #2F2F2F;
+$bg-color-2: #303030;
 $fg-color: #EEE;
+$fg-accent-green: #7F0;
 $shadow-color: #000;
 
 $font-regular: 'Source Code Pro', monospace;
+$font-size-regular: 16px;
+$font-size-small: 14px;
+$font-size-smaller: 12px;
+
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
