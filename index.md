@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Alessandro Sartori
+title: Home
 permalink: /
 ---
 
