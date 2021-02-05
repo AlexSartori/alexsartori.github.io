@@ -4,6 +4,7 @@ h1 {
 }
 
 h2 {
+    margin: 1.5em 0px 0.5em 0px;
     font-size: 1.5rem;
     color: $fg-accent-yellow;
 }
@@ -11,7 +12,8 @@ h2 {
 a {
     color: $fg-color;
 
-    // &:hover {
-    //     color: $fg-color-accent;
-    // }
+    &:hover {
+        // color: $fg-color-accent;
+        text-decoration: none;
+    }
 }
