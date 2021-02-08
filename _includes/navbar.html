@@ -1,6 +1,8 @@
 <div class="navbar">
     {% for p in site.data.navbar %}
-        {% if p.url == page.url %}
+        {% assign base_url = page.url | remove_first: "/" | split: "/" | first %}
+        {% assign base_url = "/" | append: base_url %}
+        {% if p.url == base_url %}
             <a href="{{ p.url }}" class="active">{{ '> ' | append: p.name | append: ' <' | ascii_box }}</a>
         {% else %}
             <a href="{{ p.url }}">{{ p.name | ascii_box }}</a>
