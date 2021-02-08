@@ -71,7 +71,7 @@ img {
 
     &.img-big {
         max-width: 90%;
-        max-height: 250px;
+        max-height: 300px;
     }
 
     &.img-med {
@@ -95,4 +95,10 @@ ul {
             margin: 5px;
         }
     }
+}
+
+pre {
+    padding: 10px;
+    background-color: $bg-color-1;
+    // border: 1px dashed $fg-color;
 }
