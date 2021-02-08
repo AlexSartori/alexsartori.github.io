@@ -66,15 +66,23 @@ hr {
 
 img {
     display: block;
-    max-width: 90%;
-    max-height: 250px;
     margin: 2em auto;
     border: 5px double $fg-color;
+
+    &.img-big {
+        max-width: 90%;
+        max-height: 250px;
+    }
+
+    &.img-med {
+        max-width: 70%;
+        max-height: 150px;
+    }
 }
 
 ul {
     margin: 5px;
-    
+
     li {
         list-style: none outside;
 

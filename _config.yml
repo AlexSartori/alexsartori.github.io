@@ -13,6 +13,7 @@ permalink: /blog/:categories/:title
 # theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Other
 sass:
