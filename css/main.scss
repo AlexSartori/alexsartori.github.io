@@ -52,9 +52,9 @@ hr {
 }
 
 .container {
-    max-width: calc(#{$tablet-width} - 40px);
+    max-width: calc(#{$tablet-width} - 60px);
     margin: 20px auto;
-    padding: 5px 20px;
+    padding: 5px 30px 30px;
     background-color: $bg-color-2;
     border-radius: 4px;
     box-shadow: 0px 3px 5px 0px $shadow-color;

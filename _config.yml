@@ -10,7 +10,8 @@ url: "https://alexsartori.github.io"
 permalink: /blog/:categories/:title
 
 # Build settings
-# theme: minima
+markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jemoji
