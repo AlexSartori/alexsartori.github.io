@@ -3,9 +3,9 @@
         {% assign base_url = page.url | remove_first: "/" | split: "/" | first %}
         {% assign base_url = "/" | append: base_url %}
         {% if p.url == base_url %}
-            <a href="{{ p.url }}" class="active">{{ '> ' | append: p.name | append: ' <' | ascii_box }}</a>
+            <a href="{{ p.url }}" class="active">{{ '> ' | append: p.name | append: ' <' }}</a>
         {% else %}
-            <a href="{{ p.url }}">{{ p.name | ascii_box }}</a>
+            <a href="{{ p.url }}">{{ p.name }}</a>
         {% endif %}
     {% endfor %}
 </div>
