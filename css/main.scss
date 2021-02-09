@@ -77,20 +77,7 @@ img {
 }
 
 ul {
-    margin: 5px;
-
-    li {
-        list-style: none outside;
-
-        &::before {
-            content: '[*] '
-        }
-
-        p {
-            display: inline-block;
-            margin: 5px;
-        }
-    }
+    list-style: "[*] " outside;
 }
 
 pre {
