@@ -3,8 +3,10 @@ layout: post
 title: "Handmade Vintage-Looking Amplifier"
 date: 2020-01-08
 categories: electronics
-tags: 3D-printing, amplifier, hi-fi, electronics, vintage, wood, wood-working
+tags: 3d-printing, amplifier, hi-fi, electronics, handmade, vintage, wood, wood-working, DIY
 ---
+
+![Final look of the amplifier](/assets/posts/tomare-cover.png){:.img-big}
 
 ## The Idea
 Well the idea was pretty simple: a friend of mine told me that an amplifier he had in his room stopped working, so after some quick troubleshooting and a death diagnosis I proposed to build a new one myself. At first I was hoping that my knowledge in electronics, however small, could be enough to design and build something decent, but I surrendered pretty soon and only built a nice-looking case to host an amplifier board bought online.

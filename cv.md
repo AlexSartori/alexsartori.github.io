@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Curriculum
+title: Curriculum Vitae
 ---
 
 ## \>>> Info
