@@ -1,0 +1,44 @@
+- name: "Reply Code Challenge 2020"
+  url: https://challenges.reply.com/
+  result: "130th/2862 (top 4%)"
+  team: "Quintino Francesco Lotito, Alessandro Sartori"
+
+- name: "Google Hashcode 2020"
+  url: https://hashcode.withgoogle.com/
+  result: "8th/42 at UniTN, 62nd/428 in Italy"
+  team: "Massimiliano Fronza, Luca Morgese, Alessandro Sartori"
+
+- name: "Reply Cyber Security Challenge"
+  url: https://challenges.reply.com/
+  result: "181st/1296 (top 14%)"
+  team: "Massimiliano Fronza, Federica Ress, Alessandro Sartori"
+
+- name: "Campionato Universitario Makers"
+  url: https://campunimakers.it/
+  result: "3rd Prize"
+  team: "Federica Ress, Alessandro Sartori, Alberto Zabeo"
+
+- name: "Reply Code Challenge 2019"
+  url: https://challenges.reply.com/
+  result: "72nd/1337 (top 5%)"
+  team: "Claudia Mengoni, Alessandro Sartori"
+
+- name: "Google Hashcode 2019"
+  url: https://hashcode.withgoogle.com/
+  result: "15th/33 at UniTN, 175th/356 in Italy"
+  team: "Nicola Forasacco, Valentina Lorenzi, Niccolò Marcon, Alessandro Sartori"
+
+- name: "Google Hashcode 2018"
+  url: https://hashcode.withgoogle.com/
+  result: "3rd/23 at UniTN, 15th/340 in Italy"
+  team: "Nicola Forasacco, Niccolò Marcon, Luca Marzari, Alessandro Sartori"
+
+- name: "NASA Space Apps Challenge 2017"
+  url: https://2017.spaceappschallenge.org/
+  result: "3rd Prize"
+  team: "Andrea Brosio, Niccolò Marcon, Alessandro Sartori"
+
+- name: "100100 Challenge (2015)"
+  url: https://www.centocento.org/hackathon/
+  result: "Special mention for Smart Cities"
+  team: "Luca Fregolon, Nicola Frison, Mattia Giacomello, Niccolò Marcon, Alessandro Sartori, Andrea Ziliotto"

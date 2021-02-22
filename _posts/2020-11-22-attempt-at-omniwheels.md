@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My attempt at Omni-Wheels"
+title: "My Attempt at Omni-Wheels"
 date: 2020-11-22
 categories: handcrafting 3d-printing
 tags: 3d-printing DIY omniwheel omni-wheel

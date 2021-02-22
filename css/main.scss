@@ -92,3 +92,21 @@ pre {
     background-color: $bg-color-1;
     // border: 1px dashed $fg-color;
 }
+
+table {
+    width: 100%;
+
+    th, td {
+        padding: 8px 15px;
+        @include ascii_border;
+        border-image-outset: 5px 4px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    td {
+        color: darken($fg-color, 20%);
+    }
+}

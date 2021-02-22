@@ -8,7 +8,14 @@ permalink: /
 ---
 Bla bla bla [\...]
 
-## \>>> Latest works in my blog
+## \>>> Highlighted projects
+---
+{% for p in site.data.projects limit:3 %}
+- [**{{ p.name }}**{:.highlight-blue}]({{ p.url }}): {{ p.summary }}
+{% endfor %}
+- [*...see all*](/projects)
+
+## \>>> Latest articles in my blog
 ---
 {% for p in site.posts limit:3 %}
 - [{{ p.title }}]({{ p.url }})
@@ -16,7 +23,10 @@ Bla bla bla [\...]
 - [*...see all*](/blog)
 
 ## \>>> Recent competitions
----
-- \...
-- \...
-- [*...see all*](/competitions)
+
+| Competition | Result | Team |
+|---|
+{% for c in site.data.competitions limit:3 %} | [{{ c.name }}]({{ c.url }}) | {{ c.result }} | {{ c.team }} |
+{% endfor %}
+
+([*...see all*](/competitions))
