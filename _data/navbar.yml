@@ -6,5 +6,7 @@
   url: /blog
 - name: Competitions
   url: /competitions
+- name: Projects
+  url: /projects
 - name: Contacts
   url: /contact
