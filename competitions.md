@@ -4,9 +4,10 @@ title: Competitions
 permalink: /competitions
 ---
 
-{% for c in site.data.competitions %}
+## \>>> All competitions
 
-### \>>> {{ c.name }}
+{% for c in site.data.competitions %}
+### {{ c.name }}
 {:.highlight-red}
 **Link:** [{{ c.url }}]({{ c.url }}) \\
 **Result:** {{ c.result }} \\
