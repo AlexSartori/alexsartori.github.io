@@ -1,0 +1,15 @@
+- name: RISC-emV
+  summary: A RISC-V graphical emulator
+  url: https://github.com/AlexSartori/RISC-emV
+- name: LoRaSim
+  summary: A graphical simulator for LoRa with Markov Chains as models
+  url: https://github.com/AlexSartori/LoRaSim
+- name: Rapberry-GPIO-Manager
+  summary: A basic library to manage GPIO pins on Raspberry Pi boards using C#
+  url: https://github.com/AlexSartori/Raspberry-GPIO-Manager
+- name: WordClock
+  summary: A jQuery plugin to embed a word clock
+  url: https://github.com/AlexSartori/WordClock
+- name: custom-shell
+  summary: A bash-like shell created for a course project at UniTN which turned out pretty nicely
+  url: https://github.com/AlexSartori/custom-shell

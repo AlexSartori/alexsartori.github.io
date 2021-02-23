@@ -11,14 +11,14 @@ Bla bla bla [\...]
 ## \>>> Highlighted projects
 ---
 {% for p in site.data.projects limit:3 %}
-- [**{{ p.name }}**{:.highlight-blue}]({{ p.url }}): {{ p.summary }}
+- [**{{ p.name }}**]({{ p.url }}){:.highlight-blue}: {{ p.summary }}
 {% endfor %}
 - [*...see all*](/projects)
 
 ## \>>> Latest articles in my blog
 ---
 {% for p in site.posts limit:3 %}
-- [{{ p.title }}]({{ p.url }})
+- [**{{ p.title }}**]({{ p.url }}){:.highlight-green}: {{ p.description }}
 {% endfor %}
 - [*...see all*](/blog)
 

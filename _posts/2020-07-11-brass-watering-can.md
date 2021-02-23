@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Tiny Watering Can, For a Tiny Fat Plant's Thirst"
+description: "Enjoying some metalworking: cutting, filing, embossing, and welding!"
 date: 2020-07-11
 categories: handcrafting metalworking
 tags: modeling metalworking brass embossment watering-can

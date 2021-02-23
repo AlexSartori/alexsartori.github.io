@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "IoT Home Thermostat"
+description: "Substitution of an old thermostat with a DIY RPi-based one"
 date: 2018-12-12
 categories: electronics
 tags: 3D-printing, DIY, home-thermostat, raspberry-pi, internet-of-things, iot

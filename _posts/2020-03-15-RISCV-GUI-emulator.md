@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "RISC-V GUI Emulator"
+description: "A Py3 + Qt5 emulator and disassembler for the rising RISC-V architecture"
 date: 2020-03-15
-categories: computer science
+categories: computer-science
 tags: risc-v risc-v-emulator python3 qt pyqt tomasulo tomasulo-emulator gui-emulator
 ---
 
