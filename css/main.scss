@@ -98,7 +98,7 @@ table {
     width: 100%;
 
     th, td {
-        padding: 8px 15px;
+        padding: 8px 12px;
         @include ascii_border;
         border-image-outset: 5px 4px;
     }

@@ -1,10 +1,11 @@
-# Site settings: {{ site.myvariable }}
+# Site settings
 title: Alessandro Sartori
 email: alex.sartori1997@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+    I'm Alessandro Sartori, an italian developer with many interests.
+    This is my porfolio, be sure to checkout my projects and my blog,
+    where I write about them and about many other things I build and
+    experiment with.
 baseurl: ""
 url: "https://alexsartori.github.io"
 permalink: /blog/:categories/:title
@@ -15,6 +16,7 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-seo-tag
 
 # Other
 sass:
