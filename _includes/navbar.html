@@ -3,7 +3,7 @@
         {% assign base_url = page.url | remove_first: "/" | split: "/" | first %}
         {% assign base_url = "/" | append: base_url %}
         {% if p.url == base_url %}
-            <a href="{{ p.url }}" class="active">{{ '> ' | append: p.name | append: ' <' }}</a>
+            <a href="{{ p.url }}" class="active">{{ '&gt; ' | append: p.name | append: ' &lt;' }}</a>
         {% else %}
             <a href="{{ p.url }}">{{ p.name }}</a>
         {% endif %}

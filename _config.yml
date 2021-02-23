@@ -17,8 +17,25 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Other
 sass:
   sass_dir: css
   style: compressed
+
+# google_site_verification: ...
+
+# jekyll-seo-tag
+author: alex__sartori
+twitter:
+  username: alex__sartori
+  card: summary
+social:
+  name: Alessandro Sartori
+  links:
+    - https://twitter.com/alex__sartori
+    - https://github.com/AlexSartori
+    - https://www.linkedin.com/in/alex-sartori-92a567100
+    - https://www.hackerrank.com/alexsartori
+    - https://www.goodreads.com/user/show/88443905-alex-sartori
