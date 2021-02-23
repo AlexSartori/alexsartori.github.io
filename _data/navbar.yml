@@ -4,5 +4,7 @@
   url: /cv
 - name: Blog
   url: /blog
+- name: Competitions
+  url: /competitions
 - name: Contacts
   url: /contact
