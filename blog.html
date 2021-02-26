@@ -1,0 +1,25 @@
+---
+layout: default
+title: Blog Posts
+permalink: /blog
+---
+
+<h2>&gt;&gt;&gt; All posts</h2>
+
+<table class="no-border">
+  {% for p in site.posts %}
+  <tr>
+    <td>
+      <a href="{{ p.url }}">
+        <img src="{{ p.image }}" style="width:200px"/>
+      </a>
+    </td>
+    <td>
+      <h3>
+        <a href="{{ p.url }}" class="highlight-green">{{ p.title }}</a>
+      </h3>
+      <p>{{ p.description }}</p>
+    </td>
+  </tr>
+  {% endfor %}
+</table>

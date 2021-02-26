@@ -5,6 +5,7 @@ description: "Some omni-wheel prototypes I attempted to 3D print"
 date: 2020-11-22
 categories: handcrafting 3d-printing
 tags: 3d-printing DIY omniwheel omni-wheel
+image: "/assets/posts/omni-1.jpg"
 ---
 
 First off, this little project is not something I’m currently working on. It’s just a failed attempt of 2 years ago of which I recently found the remains, so here’s to you why I did it, what I did, and why it didn’t work.

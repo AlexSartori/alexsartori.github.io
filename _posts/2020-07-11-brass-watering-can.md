@@ -5,6 +5,7 @@ description: "Enjoying some metalworking: cutting, filing, embossing, and weldin
 date: 2020-07-11
 categories: handcrafting metalworking
 tags: modeling metalworking brass embossment watering-can
+image: "/assets/posts/wateringcan-cover.jpg"
 ---
 
 This time I took advantage of the break between two exams to make a little jump in my past. My father is a goldsmith, and when I was a kid I used to always wander around his workshop craving to learn everything he was doing. I only ever worked on brass however, but that was obviously enough to have my dose of fun.

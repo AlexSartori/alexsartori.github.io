@@ -5,6 +5,7 @@ description: "My attempt at No-PCB circuits with a USB semaphore"
 date: 2020-03-27
 categories: electronics
 tags: 3d-circuit epoxy-resin no-pcb no-pcb-circuit skeleton-circuit freeform-circuit
+image: "/assets/posts/semaphore-4.jpg"
 ---
 
 ## Why and What

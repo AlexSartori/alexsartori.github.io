@@ -5,7 +5,10 @@ description: "Substitution of an old thermostat with a DIY RPi-based one"
 date: 2018-12-12
 categories: electronics
 tags: 3D-printing, DIY, home-thermostat, raspberry-pi, internet-of-things, iot
+image: "/assets/posts/lilt-cover.png"
 ---
+
+![Whiteboard sketches of the thermostat](/assets/posts/lilt-cover.png){:.img-big}
 
 ## The Idea
 I live in a quite old house, and the heating thermostat is one of those with only a handle to set a threshold temperature, below which it will turn on the heating system. Main disadvantage is at night I either set the temp to 18°C/20°C and pointlessly waste a lot or set it to say, 15°C, and wake up to a frozen house. Another disadvantage: during weekends I’m often out and I always have to get back at late evening with like 10°C.

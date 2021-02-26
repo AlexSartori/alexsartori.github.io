@@ -5,6 +5,7 @@ description: "A present I crafted for a friend"
 date: 2020-01-08
 categories: electronics
 tags: 3d-printing, amplifier, hi-fi, electronics, handmade, vintage, wood, wood-working, DIY
+image: "/assets/posts/tomare-cover.png"
 ---
 
 ![Final look of the amplifier](/assets/posts/tomare-cover.png){:.img-big}
