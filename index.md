@@ -12,7 +12,7 @@ On this website I mainly share my professional or recreational achievements, but
 
 In the sections that follow, you will find some quick highlights from the various pages in which I have organized this portal, accessible either from the navbar above or from the "see all..." link at the end of each list below.
 
-Should you have any suggestion, comment, or topic you wish to discuss about, you are very welcome to reach out! 
+Should you have any suggestion, comment, or topic you wish to discuss about, you are very welcome to reach out!
 
 ## \>>> Highlighted projects
 ---
@@ -34,4 +34,5 @@ Should you have any suggestion, comment, or topic you wish to discuss about, you
 |---|
 {% for c in site.data.competitions limit:3 %} | [**{{ c.name }}**]({{ c.url }}){:.highlight-red} | {{ c.result }} | {{ c.team }} |
 {% endfor %}
+
 ([*...see all*](/competitions))

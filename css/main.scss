@@ -55,10 +55,18 @@ hr {
 .container {
     max-width: calc(#{$tablet-width} - 60px);
     margin: 20px auto;
-    padding: 5px 30px 30px;
+    padding: 5px 20px 20px;
     background-color: $bg-color-2;
     border-radius: 4px;
     box-shadow: 0px 3px 5px 0px $shadow-color;
+
+    @include media-tablet {
+        padding: 5px 25px 25px;
+    }
+
+    @include media-desktop {
+        padding: 5px 30px 30px;
+    }
 }
 
 img:not(.emoji) {
@@ -99,7 +107,7 @@ table {
     width: 100%;
 
     th, td {
-        padding: 8px 12px;
+        padding: 4px 8px;
         @include ascii_border;
         border-image-outset: 5px 4px;
     }
@@ -112,5 +120,17 @@ table {
 
     th {
         font-weight: bold;
+    }
+
+    @include media-tablet {
+        th, td {
+            padding: 5px 10px;
+        }
+    }
+
+    @include media-desktop {
+        th, td {
+            padding: 8px 12px;
+        }
     }
 }

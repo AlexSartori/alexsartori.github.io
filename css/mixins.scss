@@ -1,4 +1,5 @@
 @mixin ascii_border {
+    border: 2px dashed $fg-color;
     border-image-source: url('/assets/ascii_border.png');
     border-image-slice: 25% 33%;
     border-image-width: 10px;
