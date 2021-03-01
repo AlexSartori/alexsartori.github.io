@@ -18,6 +18,7 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-email-protect
 
 # Other
 sass:
@@ -36,6 +37,6 @@ social:
   links:
     - https://twitter.com/alex__sartori
     - https://github.com/AlexSartori
-    - https://www.linkedin.com/in/alex-sartori-92a567100
+    - https://www.linkedin.com/in/alessandro-sartori-92a567100/
     - https://www.hackerrank.com/alexsartori
     - https://www.goodreads.com/user/show/88443905-alex-sartori

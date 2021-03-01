@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
+  gem "jekyll-email-protect"
 end
