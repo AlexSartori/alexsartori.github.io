@@ -1,3 +1,8 @@
+- name: "Google Hashcode 2021"
+  url: https://hashcode.withgoogle.com/
+  result: "21st/46 at UniTN, 150th/301 in Italy"
+  team: "Edoardo Giussani, Niccolò Marcon, Arianna Mattiello, Alessandro Sartori"
+
 - name: "Reply Code Challenge 2020"
   url: https://challenges.reply.com/
   result: "130th/2862 (top 4%)"
