@@ -94,6 +94,10 @@ img:not(.emoji) {
     }
 }
 
+img.emoji {
+    margin-bottom: -3px;
+}
+
 ul {
     list-style: "[*] " outside;
 }

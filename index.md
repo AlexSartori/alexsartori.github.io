@@ -6,13 +6,13 @@ permalink: /
 
 ## \>>> Welcome
 ---
-Hey there, welcome to my portfolio!
+Hey there, welcome to my portfolio! :earth_americas:
 
 On this website I mainly share my professional or recreational achievements, but I also like to write short stories or summaries of the works and experiments I carry out in my free time and share them with anyone that might find them interesting. I have so many hobbies and so little time! I hope you'll enjoy the variety of topics in my blog.
 
-In the sections that follow, you will find some quick highlights from the various pages in which I have organized this portal, accessible either from the navbar above or from the "see all..." link at the end of each list below.
+In the sections that follow, you will find some quick highlights from the various pages in which I have organized this portal, accessible either from the navbar above or from the "*see all...*" link at the end of each list below.
 
-Should you have any suggestion, comment, or topic you wish to discuss about, you are very welcome to reach out!
+Should you have any suggestion, comment, or topic you wish to discuss about, you are very welcome to reach out! :mailbox_with_mail:
 
 ## \>>> Highlighted projects
 ---
