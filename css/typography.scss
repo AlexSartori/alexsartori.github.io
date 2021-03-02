@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h2 {
@@ -13,7 +13,6 @@ a {
     color: $fg-color;
 
     &:hover {
-        // color: $fg-color-accent;
         text-decoration: none;
     }
 }

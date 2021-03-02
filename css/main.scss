@@ -9,7 +9,7 @@ html, body {
     background-color: $bg-color-1;
     color: $fg-color;
     font-family: $font-regular;
-    font-size: $font-size-smaller;
+    font-size: $font-size-small;
 
     @include media-tablet {
         font-size: $font-size-small;
@@ -37,8 +37,8 @@ hr {
 
     a {
         display: inline-block;
-        margin: 5px;
-        padding: 12px 15px;
+        margin: 4px;
+        padding: 10px 12px;
 
         text-decoration: none;
         transition: 0.3s all;
@@ -53,19 +53,21 @@ hr {
 }
 
 .container {
-    max-width: calc(#{$tablet-width} - 60px);
+    max-width: calc(#{$tablet-width} - 40px);
     margin: 20px auto;
     padding: 5px 20px 20px;
     background-color: $bg-color-2;
-    border-radius: 4px;
+    border-radius: 0px;
     box-shadow: 0px 3px 5px 0px $shadow-color;
 
     @include media-tablet {
         padding: 5px 25px 25px;
+        border-radius: 0px;
     }
 
     @include media-desktop {
         padding: 5px 30px 30px;
+        border-radius: 4px;
     }
 }
 
