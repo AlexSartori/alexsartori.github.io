@@ -25,7 +25,8 @@ sass:
   sass_dir: css
   style: compressed
 
-# google_site_verification: ...
+webmaster_verifications:
+    google: 5i9jZLEugHT4mmzNI7MtYNlLxbdEPOoTCW5N5UTH_OY
 
 # jekyll-seo-tag
 author: alex__sartori
