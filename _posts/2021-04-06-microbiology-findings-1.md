@@ -5,7 +5,7 @@ description: "A microscope lets you see so many unexpected things..."
 date: 2021-04-06
 categories: biology
 tags: biology microbiology microscope
-image: "/assets/posts/..."
+image: "/assets/posts/mbio-peritrichi.jpg"
 ---
 
 {% assign html_video_pre_url = "<video controls class='vid-half'><source src='" %}
