@@ -35,7 +35,7 @@ Some days later, I finally found a microorganism I recognized myself! The tiny w
 
 Did you notice the intruder? On the top right corner you can see what is most likely a **gastrotrich**, a finding that made Emma very jealous since she could never find one :sunglasses:
 
-But anyway, let's have some more fun with rotifers. Take a look below at how they eat: basically they open up this sort of mouth that is covered in cilia which they move to create a vortex to  attract other microorganisms to ingest.
+But anyway, let's have some more fun with rotifers. Take a look below at how they eat: basically they open up this sort of mouth that is covered in cilia which they move to create a vortex to attract anything they can ingest (other microorganisms, organig debris, etc).
 
 {{ html_video_pre_url }}/assets/posts/mbio-rotifero-3.mp4{{ html_video_post_url }}
 {{ html_video_pre_url }}/assets/posts/mbio-rotifero-4.mp4{{ html_video_post_url }}
@@ -44,11 +44,11 @@ Now a very interesting experiment: one of those survival abilities I mentioned c
 
 <div class='text-center'>{{ html_video_pre_url }}/assets/posts/mbio-rotifero-2.mp4{{ html_video_post_url }}</div>
 
-One other video I think is simply amazing is this one where I captured a ...thing? dividing in two. The first I found was by chance, and by the time I understood what was happening it was already over and I did not record anything. To find another and be able to record, I literally spent the whole evening, but at the end I was so satisfied. This video is sped up 25 times, as the original one lasted almost 15 minutes.
+One other video I think is simply amazing is this one where I captured a *...thing?* dividing in two (which I'm being told is technically called binary scission). The first I found was by chance, and by the time I understood what was happening it was already over and I did not record anything. To find another one and be able to record, I literally spent the whole evening, but at the end I was so satisfied. This video is sped up 25 times, as the original one lasted almost 15 minutes.
 
 <div class='text-center'>{{ html_video_pre_url }}/assets/posts/mbio-division.mp4{{ html_video_post_url }}</div>
 
-Notice also how colorful is the light shed by that **diatom** on the top right. And speaking of algae, look at how cool **spirogyras** are! Those spirals are actually their chloroplasts, the organelles that perform photosynthesis.
+Notice also how colorful that long **diatom** (on the top right) appears under this light. And speaking of algae, look at how cool **spirogyras** are! Those spirals are actually their chloroplasts, the organelles that perform photosynthesis.
 
 ![Spirogyra algae](/assets/posts/mbio-spirogyra.jpg){:.img-big}
 
