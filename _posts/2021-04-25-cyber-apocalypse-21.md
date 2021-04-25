@@ -9,7 +9,7 @@ image: "/assets/posts/ca-21-cover.png"
 ---
 
 ## About Cyber Apocalypse 2021
-Cyber Apocalypse is probably one of the biggest CTF challenges out there, born from the collaboration of **Hack The Box**, **CryptoHack**, and **Code.org**. A *Capture-The-Flag* competition consists in a series of challenges of many that contestants need to solve in order to find a hidden flag that will grant points to their team. Such problems range from simple programming exercises to complex reverse-engineering tasks or vulnerable software to hack. In this case, many challenges were only reachable on a remote container, while for others it was possible to download and inspect their source code.
+Cyber Apocalypse is probably one of the biggest CTF challenges out there, born from the collaboration of **Hack The Box**, **CryptoHack**, and **Code.org**. A *Capture-The-Flag* competition consists in a series of challenges that contestants need to solve in order to find a hidden flag that will grant points to their team. Such problems range from simple programming exercises to complex reverse-engineering tasks or vulnerable software to hack. In this case, many challenges were only reachable on a remote container, while for others it was possible to download and inspect their source code.
 
 ## Index
 Out of the many challenges I tried to solve, these are the ones I completed successfully:
