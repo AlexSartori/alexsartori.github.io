@@ -1,3 +1,8 @@
+- name: "Cyber Apocalypse CTF 2021"
+  url: https://www.hackthebox.eu/cyber-apocalypse-ctf-2021
+  result: "243rd/4740 (top 5%)"
+  team: "Andrea Costa, Fabio Della Giustina, Alessandro Sartori, Carlotta Tagliaro"
+
 - name: "Google Hashcode 2021"
   url: https://hashcode.withgoogle.com/
   result: "21st/46 at UniTN, 150th/301 in Italy"
