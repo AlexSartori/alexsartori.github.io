@@ -11,3 +11,5 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-email-protect"
 end
+
+gem "webrick", "~> 1.7"

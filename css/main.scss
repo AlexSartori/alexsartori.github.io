@@ -91,7 +91,10 @@ img:not(.emoji) {
 
     &.img-half {
         display: inline-block;
-        width: 48%;
+        width: 46%;
+        margin-left: 1%;
+        margin-right: 1%;
+        vertical-align: middle;
     }
 }
 
@@ -107,7 +110,7 @@ video {
 
     &.vid-big {
         max-width: 90%;
-        max-height: 300px;
+        max-height: 400px;
     }
 
     &.vid-med {
