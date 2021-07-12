@@ -1,15 +1,14 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2.0"
+gem "jekyll"
 # gem "github-pages", group: :jekyll_plugins
 
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-email-protect"
 end
 
-gem "webrick", "~> 1.7"
