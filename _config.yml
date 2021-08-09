@@ -8,7 +8,7 @@ description: >-
     experiment with.
 baseurl: ""
 url: "https://alexsartori.github.io"
-permalink: /blog/:categories/:title
+permalink: /blog/:title
 
 # Build settings
 markdown: kramdown
