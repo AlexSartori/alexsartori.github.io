@@ -38,7 +38,7 @@ I think the micro-micro-scope reached a "usable" and possibly final state when I
 
 ![Phone camera support](/assets/posts/mms-build-8.jpg){:.img-big}
 
-Finally, at this stage, I managed to get a couple of quite interesting snaps. The first one shows just enough detail to reveal the cells of a leaf, while in the second one I spotted a paremecium (most likely) swimming around:
+Finally, at this stage, I managed to get a couple of quite interesting snaps. The first one shows just enough detail to reveal the cells of a leaf, while in the second one I spotted a paramecium (most likely) swimming around:
 
 ![Some debris seen from the micro-micro-scope](/assets/posts/mms-build-9.jpg){:.img-half}
 ![Some debris seen from the micro-micro-scope](/assets/posts/mms-build-10.jpg){:.img-half}
