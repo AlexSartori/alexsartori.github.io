@@ -19,9 +19,9 @@ permalink: /cv
 
 ## \>>> Work Experiences
 ---
-- **Professor at ITIS Alessandro Rossi**{:.highlight-purple} (2021 - present)\\
+- **Professor at ITIS Alessandro Rossi**{:.highlight-purple} (2021)\\
     At my past high school I teach TPSIT (i.e., "Telecommunication and Information Systems Design and Technologies")
-- **Developer at E-Agle Trento Racing Team**{:.highlight-purple} (2020 - present)\\
+- **Project Manager at E-Agle Trento Racing Team**{:.highlight-purple} (2020 - present)\\
     [E-Agle TRT](https://eagletrt.it/) is the University of Trento's Formula SAE racing team, where I am part of the Software/Microcontrollers team, developing components for this year's competition prototype.
 - **Web Developer at Matrix Internet Ireland**{:.highlight-purple} (2015)\\
     During high school I ranked for the Erasmus+ programme and participated in a one month internship at [Matrix Internet](https://www.matrixinternet.ie/) in Dublin, Ireland. My tasks included at first testing and refactoring of in-development pages, while successively I was assigned the rebuilding of an administration portal in PHP.
