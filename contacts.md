@@ -8,7 +8,7 @@ permalink: /contacts
 You can contact me by writing me an e-mail at [this address](mailto:{{ 'alex.sartori1997@gmail.com' | encode_email }}) or reach out at any of the social profiles below.
 
 ## \>>> Receive updates
-If you enjoy my blog and wish to receive seldom updates you can either subscribe to this website's [RSS Feed](/feed.xml) or join my [Telegram channel](https://t.me/sandrostechnologies) where I send some more silly stuff.
+If you enjoy my blog and wish to receive seldom updates you can either **subscribe to the newsletter at [this form](https://forms.gle/Mk6Z3NowBkCmmBRF8)**, subscribe this website's [RSS Feed](/feed.xml), or join my [Telegram channel](https://t.me/sandrostechnologies) where I send some more silly stuff.
 
 ## \>>> Social links
 :octocat: [Github](https://github.com/AlexSartori)\\
