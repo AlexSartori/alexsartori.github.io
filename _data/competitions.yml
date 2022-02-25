@@ -1,3 +1,8 @@
+- name: "Google Hashcode 2022"
+  url: https://hashcode.withgoogle.com/
+  result: "10th/40 at UniTN, 67th/275 in Italy"
+  team: "Matteo Bitussi, Massimiliano Fronza, Niccolò Marcon, Alessandro Sartori"
+
 - name: "Hack@ Trento"
   url: https://hacka.math2b.it/tappe/trento
   result: "1st/20"
