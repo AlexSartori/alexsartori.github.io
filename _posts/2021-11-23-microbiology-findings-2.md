@@ -5,7 +5,7 @@ description: "Follow-up of the earlier article \"Microbiology Findings #1\""
 date: 2021-11-23
 categories: biology
 tags: biology microbiology microscope
-image: "/assets/posts/..."
+image: "/assets/posts/mbio2-desmid.jpg"
 ---
 
 After writing [Microbiology Findings #1]({% link _posts/2021-04-06-microbiology-findings-1.md %}) I still could not stop playing around with my microscope any time I found a puddle of dirty water or went to a lake or forest. Each time I could find something new and kept wondering what could possibly come next so, after some months, here we are with a new collection of adorable weird-looking microscopic wonders.
