@@ -10,7 +10,7 @@ permalink: /cv
 
 ## \>>> Education
 ---
-- **Master's degree in Computer Science**{:.highlight-purple} (2019 - present)\\
+- **Master's degree in Computer Science**{:.highlight-purple} (2019 - 2022)\\
     University of Trento
 - **Bachelor's degree in Computer Science**{:.highlight-purple} (2016 - 2019)\\
     University of Trento
@@ -32,9 +32,9 @@ permalink: /cv
 
 ## \>>> Volunteering
 ---
-- **Audio/Video Technician**{:.highlight-purple} (2020 - present)\\
+- **Audio/Video Technician**{:.highlight-purple} (2020 - 2021)\\
     [Prosa&Prosit](https://www.facebook.com/ProsaProsit-626753044509484/) is an association that organizes weekly public meetings with local authors to discuss their books and literature. Together with a friend, I manage the real-time web streams for people to assist remotely.
-- **Repairman**{:.highlight-purple} (2018 - present)\\
+- **Repairman**{:.highlight-purple} (2018 - 2021)\\
     [Repair Cafè Trento](https://therestartproject.org/groups/restarters-trento/) is a community of amateurs and professional volunteers who periodically gather in public places and welcome anyone who owns a broken object to attempt its mending together. In 2018 I joined this group to help give new life to old objects and fight the excessive waste that characterizes technology these days. My repair skills span from mechanics and electronics to metal working, wood working and sewing.
 - **IT Assistant**{:.highlight-purple} (2014 - 2015)\\
     As part of a school project, I provided assistance to users of the computer room at the "Biblioteca Bertoliana" city library.
