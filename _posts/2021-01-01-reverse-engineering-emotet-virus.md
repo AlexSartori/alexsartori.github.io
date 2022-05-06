@@ -4,7 +4,7 @@ title: "Reverse Engineering the Emotet E-Mail Virus"
 description: "First part of the reverse-engineering process I went through to find out what the Emotet virus was doing behind all its obfuscation"
 date: 2021-01-01
 categories: computer-science
-tags: emotet emotet-trojan emotet-virus emotet-reverse-engineering reverse-engineering
+tags: emotet-trojan-virus reverse-engineering
 image: "/assets/posts/emotet-cover.png"
 ---
 

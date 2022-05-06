@@ -3,8 +3,8 @@ layout: post
 title: "DIY Piston Compressor Tool"
 description: "How I made a cheap tool to compress brake pistons"
 date: 2020-11-07
-categories: handcrafting metalworking
-tags: brake-piston-compressor diy diy-piston-compressor diy-tool
+categories: handcrafting metalworking mechanics
+tags: brake-piston-compressor diy-tool diy
 image: "/assets/posts/brakep-5.jpg"
 ---
 

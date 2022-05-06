@@ -4,7 +4,7 @@ title: "Handmade Decorative Brass Lantern"
 description: "I crafted a tiny, decorative lantern with some brass and quite a bit of effort"
 date: 2021-01-18
 categories: handcrafting metalworking
-tags: DIY handmade metalworking lantern brass-lantern decorative-lantern
+tags: handmade metalworking brass-lantern decorative-lantern
 image: "/assets/posts/lantern-cover.jpg"
 ---
 

@@ -4,7 +4,7 @@ title: "I Built a Micro-Micro-Scope"
 description: "Ever heard of useless inventions? Yeah. Here's one of many."
 date: 2021-08-09
 categories: handcrafting 3d-printing biology
-tags: biology microbiology microscope micromicroscope 3d-printing DIY
+tags: biology microbiology microscope micromicroscope 3d-printing diy
 image: "/assets/posts/mms-build-cover.jpg"
 ---
 

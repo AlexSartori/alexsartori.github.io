@@ -4,7 +4,7 @@ title: "Restoration of an Old Microscope"
 description: "Inside-out cleaning of a 50 years old microscope that belonged to my father"
 date: 2020-12-29
 categories: biology
-tags: DIY, microscope, vintage-microscope, restoration, microscope-disassembly
+tags: microscope vintage restoration
 image: "/assets/posts/micrest-4.jpg"
 ---
 

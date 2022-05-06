@@ -4,7 +4,7 @@ title: "Cyber Apocalypse 2021 - Writeup"
 description: "My solutions for the challenges I managed to solve in this CTF"
 date: 2021-04-25
 categories: computer-science
-tags: writeup ctf cyber-apocalypse-21 hackathon solutions capture-the-flag \#CyberApocalypseCTF21
+tags: writeup ctf cyber-apocalypse hackathon solutions capture-the-flag
 image: "/assets/posts/ca-21-cover.png"
 ---
 

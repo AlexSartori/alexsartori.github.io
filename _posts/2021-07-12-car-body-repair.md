@@ -4,7 +4,7 @@ title: "DIY Car Body Repair"
 description: "Repair and repaint of a dent in my dad's car"
 date: 2021-07-12
 categories: mechanics
-tags: DIY repair repaint
+tags: diy repair repaint
 image: "/assets/posts/crv-dent-cover.jpg"
 ---
 

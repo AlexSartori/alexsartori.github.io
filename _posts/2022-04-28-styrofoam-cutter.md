@@ -4,7 +4,7 @@ title: "Styrofoam Cutter From Scrap"
 description: "Why spend €30 on a tool when you can build it yourself with random scraps..."
 date: 2022-04-28
 categories: handcrafting
-tags: DIY styrofoam-cutter
+tags: diy styrofoam-cutter
 image: "/assets/posts/polycut-1.jpg"
 ---
 

@@ -4,7 +4,7 @@ title: "A Metal Detector From Garbage"
 description: "How we built a metal detector entirely from electronic scraps found around"
 date: 2021-07-27
 categories: electronics
-tags: metal-detector DIY recycling
+tags: metal-detector diy recycling
 image: "/assets/posts/md-cover.jpg"
 ---
 

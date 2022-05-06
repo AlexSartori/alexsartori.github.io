@@ -4,7 +4,7 @@ title: "Footage of Machaons"
 description: "I bred some Papilio Machaon caterpillars and one of them made it to the butterfly stage"
 date: 2021-06-13
 categories: biology photography
-tags: papilio-machaon old-world-swallowtail caterpillar butterfly metamorphosis
+tags: papilio-machaon old-world-swallowtail caterpillar butterfly
 image: "/assets/posts/macha-cover.jpg"
 ---
 
