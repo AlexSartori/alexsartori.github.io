@@ -4,7 +4,7 @@ title: Blog Posts
 permalink: /blog
 ---
 
-<h2>&gt;&gt;&gt; All posts</h2>
+<h2>&gt;&gt;&gt; All posts <small> - browse by <a href='/categories'>category</a>, <a href='/tags'>tag</a></small></h2>
 
 <table class="no-border" id="posts-table">
 </table>
@@ -14,7 +14,7 @@ permalink: /blog
 <script type="text/javascript">
     $(document).ready(function() {
         $('#posts-pagination').pagination({
-            pageSize: 10,
+            pageSize: 5,
             ulClassName: 'pagination-ul',
             prevText: '&laquo; Prev',
             nextText: 'Next &raquo;',

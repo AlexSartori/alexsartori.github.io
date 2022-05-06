@@ -7,6 +7,12 @@ h2 {
     margin: 1.5em 0px 0.5em 0px;
     font-size: 1.5rem;
     color: $fg-accent-yellow;
+
+    small {
+        color: inherit;
+        font-size: 1rem;
+        font-weight: normal;
+    }
 }
 
 a {
