@@ -6,20 +6,52 @@ permalink: /blog
 
 <h2>&gt;&gt;&gt; All posts</h2>
 
-<table class="no-border">
-  {% for p in site.posts %}
-  <tr>
-    <td width="40%">
-      <a href="{{ p.url }}">
-        <img src="{{ p.image }}" width="90%"/>
-      </a>
-    </td>
-    <td>
-      <h3>
-        <a href="{{ p.url }}" class="highlight-green">{{ p.title }}</a>
-      </h3>
-      <p>{{ p.description }}</p>
-    </td>
-  </tr>
-  {% endfor %}
+<table class="no-border" id="posts-table">
 </table>
+
+<div id="posts-pagination"></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#posts-pagination').pagination({
+            pageSize: 10,
+            ulClassName: 'pagination-ul',
+            prevText: '&laquo; Prev',
+            nextText: 'Next &raquo;',
+            dataSource: [
+                {% for p in site.posts %}
+                    {
+                        'title': '{{ p.title | escape }}',
+                        'description': '{{ p.description | escape }}',
+                        'url': '{{ p.url | uri_escape }}',
+                        'img': '{{ p.image | uri_escape }}'
+                    },
+                {% endfor %}
+            ],
+            callback: function(data, pag) {
+                $('#posts-table').html('');
+
+                var html_template = "\
+                    <tr>\
+                        <td width='40%'>\
+                            <a href='{href}'> <img src='{img}' width='90%' /> </a>\
+                        </td> <td>\
+                            <h3> <a href='{href}' class='highlight-green'>{title}</a> </h3>\
+                            <p>{description}</p>\
+                        </td>\
+                    </tr>";
+
+                data.forEach((post, i) => {
+                    var html = html_template
+                        .replaceAll('{title}', post.title)
+                        .replaceAll('{description}', post.description)
+                        .replaceAll('{href}', post.url)
+                        .replaceAll('{img}', post.img);
+
+                    $('#posts-table').append($(html));
+                });
+
+            }
+        });
+    })
+</script>

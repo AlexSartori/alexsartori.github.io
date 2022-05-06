@@ -127,8 +127,35 @@ video {
     }
 }
 
-ul {
+ul:not(.pagination-ul) {
     list-style: "[*] " outside;
+}
+
+ul.pagination-ul {
+    padding: 0px 10px;
+
+    li {
+        display: inline-block;
+        padding: 5px 10px;
+        cursor: pointer;
+        a { text-decoration: none; }
+
+        &.active, &:hover {
+            a { color: $bg-color-2; }
+            background-color: $fg-color;
+        }
+
+        &.disabled, &.disabled:hover {
+            a { color: #888; }
+            background-color: inherit;
+            cursor: default;
+        }
+    }
+}
+
+div#posts-pagination {
+    margin-top: 30px;
+    text-align: center;
 }
 
 pre {
