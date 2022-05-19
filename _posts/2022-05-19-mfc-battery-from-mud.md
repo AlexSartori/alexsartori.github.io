@@ -5,7 +5,7 @@ description: "Creating an electric battery from... Mud!"
 date: 2022-05-19
 categories: biology microbiology electronics
 tags: biology microbiology electronics mfc
-image: "/assets/posts/polycut-1.jpg"
+image: "/assets/posts/mfc1-1.jpg"
 ---
 
 ## Concept
