@@ -25,6 +25,10 @@ hr {
     border-top: 2px $fg-color dashed;
 }
 
+blockquote {
+    font-style: italic;
+}
+
 .navbar {
     max-width: $tablet-width;
     margin: 30px auto;
