@@ -32,3 +32,11 @@ a {
 .text-center {
     text-align: center;
 }
+
+.post-meta {
+    display: block;
+    font-size: $font-size-smaller;
+    color: $fg-color-dimmed;
+    text-align: center;
+    a { color: $fg-color-dimmed; }
+}

@@ -10,7 +10,7 @@ permalink: /categories
 {% assign sorted_cats = all_cats | split: ' ' | sort %}
 
 {% for category in sorted_cats %}
-  - **{{ category | upcase }}**{:.highlight-green} ({{site.categories[category].size}} posts)
+  - **{{ category | upcase }}**{:.highlight-green#{{category}}} ({{site.categories[category].size}} posts)
   {% for post in site.categories[category] %}
     - [{{ post.title }}]({{ post.url }})
   {% endfor %}

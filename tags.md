@@ -10,7 +10,7 @@ permalink: /tags
 {% assign sorted_tags = all_tags | split: ' ' | sort %}
 
 {% for tag in sorted_tags %}
-  - **{{ tag | upcase }}**{:.highlight-blue} ({{site.tags[tag].size}} posts)
+  - **{{ tag | upcase }}**{:.highlight-blue#{{tag}}} ({{site.tags[tag].size}} posts)
   {% for post in site.tags[tag] %}
     - [{{ post.title }}]({{ post.url }})
   {% endfor %}

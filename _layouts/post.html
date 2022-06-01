@@ -8,3 +8,6 @@ html_video_big_post_url: "' type='video/mp4' /></video>"
 <h1 class="highlight-yellow">{{ page.title }}</h1>
 <hr />
 {{ content }}
+<hr />
+<span class="post-meta">Categories: {% for cat in page.categories %} <a href="/categories#{{cat}}" title="See posts on {{cat}}">{{cat}}</a>{% endfor %}</span>
+<span class="post-meta">Tags:  {% for tag in page.tags %} <a href="/tags#{{tag}}" title="See posts tagged #{{tag}}">{{tag}}</a>{% endfor %}</span>
