@@ -1,3 +1,8 @@
+- name: "Cyber Apocalypse CTF 2022"
+  url: https://www.hackthebox.com/events/cyber-apocalypse-2022
+  result: "379th/7024 (top 5%)"
+  team: "Andrea Costa, Alessandro Sartori, Carlotta Tagliaro"
+
 - name: "Reply Code Challenge 2022"
   url: https://challenges.reply.com/
   result: "131th/2820 (top 4%)"
