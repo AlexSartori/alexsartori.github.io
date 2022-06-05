@@ -23,6 +23,13 @@ a {
     }
 }
 
+p > code {
+    color: $fg-color-dimmed;
+    padding: 1px 6px;
+    border-radius: 3px;
+    background-color: $monokai-bg-color;
+}
+
 .highlight-red { color: $fg-accent-red; }
 .highlight-green { color: $fg-accent-green; }
 .highlight-yellow { color: $fg-accent-yellow; }
