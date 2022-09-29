@@ -5,7 +5,7 @@ description: "A simple but effective renovation of an old hydraulic jack that ha
 date: 2022-09-28
 categories: mechanics restoration
 tags: repaint repair restoration car-jack
-image: "/assets/posts/?"
+image: "/assets/posts/hjack-res-cover.jpg"
 ---
 
 A while back, my good friend Elena was cleaning up her yard. A classic garden shed full of vintage surprises clearly didn't fail in bringhing to light interesting objects, from various tools to a (probably) 60s era motorbike. Among some stuff she was not interested in keeping, there was this hydraulic floor jack that, apart from some rust and dirt, did not seem to be in excessively bad conditions.
