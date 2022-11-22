@@ -1,3 +1,8 @@
+- name: "Reply Cyber Security Challenge 2022"
+  url: https://challenges.reply.com/
+  result: "77th/3723 (top 2%)"
+  team: "Matteo Bonora, Filippo Rossi, Simone Ruffini"
+
 - name: "Cyber Apocalypse CTF 2022"
   url: https://www.hackthebox.com/events/cyber-apocalypse-2022
   result: "379th/7024 (top 5%)"
