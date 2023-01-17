@@ -22,7 +22,7 @@ It took an awful lot of WD-40, scraping, and sanding, but the result was indeed 
 ![Degreasing and cleaning off the dirt](/assets/posts/hjack-res-4.jpg){:.img-half}
 ![Repainting](/assets/posts/hjack-res-5.jpg){:.img-half}
 
-At this point, the only thing left to do was re-gresing all the bearings and shafts, and reassembling it all together.
+At this point, the only thing left to do was re-greasing all the bearings and shafts, and reassembling it all together.
 
 ![Before reassembling](/assets/posts/hjack-res-6.jpg){:.img-big}
 ![Finished project](/assets/posts/hjack-res-7.jpg){:.img-big}
