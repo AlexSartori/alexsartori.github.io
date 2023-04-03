@@ -9,7 +9,6 @@ html, body {
     background-color: $bg-color-1;
     color: $fg-color;
     font-family: $font-regular;
-    font-size: $font-size-small;
 
     @include media-tablet {
         font-size: $font-size-small;
@@ -163,10 +162,19 @@ div#posts-pagination {
 }
 
 pre {
-    padding: 10px;
-    background-color: $bg-color-1;
+    color: $fg-color;
+    padding: 4px 10px;
     overflow: auto;
+    border-radius: 3px;
     // border: 1px dashed $fg-color;
+
+    @include media-tablet {
+        font-size: $font-size-smallest;
+    }
+
+    @include media-desktop {
+        font-size: $font-size-smaller;
+    }
 }
 
 table {
