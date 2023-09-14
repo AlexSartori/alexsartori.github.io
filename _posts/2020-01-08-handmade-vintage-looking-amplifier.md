@@ -4,7 +4,7 @@ title: "Handmade Vintage-Looking Amplifier"
 description: "A present I crafted for a friend"
 date: 2020-01-08
 categories: electronics woodworking
-tags: 3d-printing amplifier electronics handmade vintage wood-working diy
+tags: 3d-printing amplifier electronics handmade vintage woodworking diy
 image: "/assets/posts/tomare-cover.png"
 ---
 
