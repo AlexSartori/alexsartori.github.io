@@ -10,7 +10,7 @@ permalink: /cv
 
 ## \>>> Education
 ---
-- **PhD in Materials, Mechatronics, and Systems Engineering**{:.highlight-purple} (2022 - present)\\
+- **PhD in Materials, Mechatronics, and Systems Engineering**{:.highlight-purple} (2022)\\
     University of Trento / Fondazione Bruno Kessler
 - **Master's degree in Computer Science**{:.highlight-purple} (2019 - 2022)\\
     University of Trento
