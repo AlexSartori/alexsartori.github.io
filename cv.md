@@ -10,7 +10,7 @@ permalink: /cv
 
 ## \>>> Education
 ---
-- **PhD in Materials, Mechatronics, and Systems Engineering**{:.highlight-purple} (2022)\\
+- **PhD in Materials, Mechatronics, and Systems Engineering**{:.highlight-purple} (2022 - 2023)\\
     University of Trento / Fondazione Bruno Kessler
 - **Master's degree in Computer Science**{:.highlight-purple} (2019 - 2022)\\
     University of Trento
@@ -21,10 +21,12 @@ permalink: /cv
 
 ## \>>> Work Experiences
 ---
+- **Bioninformatician at IZSVe**{:.highlight-purple} (2023 - present)\\
+    At [IZSVe](https://www.izsvenezie.it/) I am developing bioinformatic tools and performing various kinds of analyses.
 - **Professor at ITIS Alessandro Rossi**{:.highlight-purple} (2021)\\
-    At my past high school I teach TPSIT (i.e., "Telecommunication and Information Systems Design and Technologies")
-- **Project Manager at E-Agle Trento Racing Team**{:.highlight-purple} (2020 - present)\\
-    [E-Agle TRT](https://eagletrt.it/) is the University of Trento's Formula SAE racing team, where I am part of the Software/Microcontrollers team, developing components for this year's competition prototype.
+    At my past high school I taught TPSIT (i.e., "Telecommunication and Information Systems Design and Technologies")
+- **Project Manager at E-Agle Trento Racing Team**{:.highlight-purple} (2020 - 2023)\\
+    [E-Agle TRT](https://eagletrt.it/) is the University of Trento's Formula SAE racing team, where I was part of the Software/Microcontrollers team, developing components for the yearly competition prototype.
 - **Web Developer at Matrix Internet Ireland**{:.highlight-purple} (2015)\\
     During high school I ranked for the Erasmus+ programme and participated in a one month internship at [Matrix Internet](https://www.matrixinternet.ie/) in Dublin, Ireland. My tasks included at first testing and refactoring of in-development pages, while successively I was assigned the rebuilding of an administration portal in PHP.
 - **Research & Development at Satelicom S.r.l.**{:.highlight-purple} (2015)\\
