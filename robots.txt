@@ -1,2 +1,7 @@
-Sitemap: https://alexsartori.github.io/sitemap.xml
+User-agent: Googlebot
+#Disallow: /nogooglebot/
 
+User-agent: *
+Allow: /
+
+Sitemap: https://alexsartori.github.io/sitemap.xml
