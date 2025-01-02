@@ -11,6 +11,8 @@ Last month I had one of those moments when you find a crapload of old analog pic
 
 Fortunately, a while ago my dad found a cheap film scanner at a thrift store and bought it, well aware that moments such as this come every once in a while.
 
+## The Issue
+
 The part of the scanner for digitizing film worked like a charm, with good definition and a proper dynamic range. However, the part for scanning diapositives was really not up to its task. The sensor probably had a very poor dynamic range, which wouldn't have been such a problem if the exposure meter didn't average the whole acquisition area. Although I'm not really sure about the reason, faces and other light-colored areas are much brighter than the surroundings in these media, which leads the exposure meter to extremely over-expose any face, given that they usually occupy a relatively small region of the picture compared to the darker surroundings. If you're wondering why I couldn't just post-process the image, here's the reason:
 
 ![An example acquisition with the scanner](/assets/posts/diapo-nikon-1.jpg){:.img-half}
@@ -21,6 +23,8 @@ As you can see from the histogram, the original color information is completely 
 I did many experiments with both software and the actual machine, but the driver didn't allow to modify acquisition parameters such as exposure compensation, and the disassembled machine didn't offer much room for improvement. I could only think of creating small graduated filters of different shapes, but that's a whole other day of messing around which didn't work for various reasons.
 
 ![Disassembled film scanner](/assets/posts/diapo-nikon-3.jpg){:.img-big}
+
+## The Solution
 
 After some fiddling with webcams and such, I felt the best solution was to create an attachment for my DSLR. Using a 20mm macro ring on a 18-55mm zoom lens I could position a slide at about 7cm from the objective and get perfect focus and complete sensor coverage.
 
@@ -33,6 +37,8 @@ Instead of a screw-in attachment I prototyped a cylinder that could fit outside 
 
 ![Sewing the fabric around the cylinder](/assets/posts/diapo-nikon-7.jpg){:.img-half}
 ![Mounted attachment to the DSLR camera](/assets/posts/diapo-nikon-8.jpg){:.img-half}
+
+## The Result
 
 For reference, this is a comparison between the same slide captured without and with the darkening cloth (the latter also has a couple of minor edits; it's the final result):
 

@@ -1,12 +1,24 @@
 h1 {
     text-align: center;
     font-size: 2.5rem;
+
+    @include media-mobile {
+        font-size: 1.8rem;
+    }
+
+    &.site-title {
+        font-size: 2.5rem;
+    }
 }
 
 h2 {
     margin: 1.5em 0px 0.5em 0px;
     font-size: 1.5rem;
     color: $fg-accent-yellow;
+
+    @include media-mobile {
+        font-size: 1.3rem;
+    }
 
     small {
         color: inherit;

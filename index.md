@@ -14,19 +14,19 @@ In the sections that follow, you will find some quick highlights from the variou
 
 Should you have any suggestion, comment, or topic you wish to discuss about, you are very welcome to reach out! :mailbox_with_mail:
 
-## \>>> Highlighted projects
----
-{% for p in site.data.projects limit:3 %}
-- [**{{ p.name }}**]({{ p.url }}){:.highlight-blue}: {{ p.summary }}
-{% endfor %}
-([*...see all*](/projects))
-
 ## \>>> Latest articles in my blog
 ---
 {% for p in site.posts limit:3 %}
 - [**{{ p.title }}**]({{ p.url }}){:.highlight-green}: {{ p.description }}
 {% endfor %}
 ([*...see all*](/blog))
+
+## \>>> Highlighted projects
+---
+{% for p in site.data.projects limit:3 %}
+- [**{{ p.name }}**]({{ p.url }}){:.highlight-blue}: {{ p.summary }}
+{% endfor %}
+([*...see all*](/projects))
 
 ## \>>> Recent competitions
 
